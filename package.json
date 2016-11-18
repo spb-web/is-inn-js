@@ -1,0 +1,27 @@
+{
+  "name": "is-inn-js",
+  "version": "1.0.0",
+  "description": "Проверка валидности ИНН",
+  "main": "isInn.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spb-web/is-inn-js.git"
+  },
+  "keywords": [
+    "ИНН",
+    "inn"
+  ],
+  "author": "Vyacheslav Ruzanov <spb.web@bk.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spb-web/is-inn-js/issues"
+  },
+  "homepage": "https://github.com/spb-web/is-inn-js#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.1.2"
+  }
+}
