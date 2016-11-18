@@ -41,7 +41,7 @@
 					4*inn.charAt( 7 ) +
 					6*inn.charAt( 8 ) +
 					8*inn.charAt( 9 )
-				) % 11 ) % 10 ) ||
+				) % 11 ) % 10 ) &&
 				( inn.charAt( 11 ) == ( (
 					3*inn.charAt( 0 ) +
 					7*inn.charAt( 1 ) +
@@ -53,7 +53,7 @@
 					9*inn.charAt( 7 ) +
 					4*inn.charAt( 8 ) +
 					6*inn.charAt( 9 ) +
-					8*inn.charAt( 9 )
+					8*inn.charAt( 10 )
 				) % 11 ) % 10 )
 			}
 			return false;
