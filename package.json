@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Проверка валидности ИНН",
   "main": "isInn.js",
+  "typings": "./index.d.ts",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test"
   },
