@@ -96,15 +96,15 @@ function makeTest(result=false, testData) {
 }
 
 describe('isInn', function( ){
-	describe('Отправка заведомо ложных значений', () => {
-		notRelevantInn.forEach(makeTest.bind(null, false))
-	})
-
-	describe('Отправка валидных ИНН', ( ) => {
-		validInn.forEach(makeTest.bind(null, true))
+  describe('Отправка заведомо ложных значений', () => {
+    notRelevantInn.forEach(makeTest.bind(null, false))
   })
 
-	describe('Отправка НЕ валидных ИНН', ( ) => {
-		invalidInn.forEach(makeTest.bind(null, false))
-	})
+  describe('Отправка валидных ИНН', ( ) => {
+    validInn.forEach(makeTest.bind(null, true))
+  })
+
+  describe('Отправка НЕ валидных ИНН', ( ) => {
+    invalidInn.forEach(makeTest.bind(null, false))
+  })
 })
